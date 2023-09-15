@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "School: Georgetown University\n\n\nDepartment: DSAN\n\n\nAuthor: Yinhong Chen\n\n# importing the required module\nimport matplotlib.pyplot as plt\n  \nx = [1,2,3]\ny = [4,5,6]\n\nplt.plot(x, y)\n\nplt.xlabel('x - axis')\nplt.ylabel('y - axis')\nplt.title('Plot')\nplt.show()\n\n\n\n\nAbout this site"
+  },
+  {
+    "objectID": "about.html#header-2",
+    "href": "about.html#header-2",
+    "title": "About",
+    "section": "",
+    "text": "Department: DSAN\n\n\nAuthor: Yinhong Chen\n\n# importing the required module\nimport matplotlib.pyplot as plt\n  \nx = [1,2,3]\ny = [4,5,6]\n\nplt.plot(x, y)\n\nplt.xlabel('x - axis')\nplt.ylabel('y - axis')\nplt.title('Plot')\nplt.show()\n\n\n\n\nAbout this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "School: Georgetown University\n\n\n\n\n\nColumn 1\n\n\nColumn 2\n\n\n\n\nThis is column 1\n\n\nand column 2\n\n\n\n\nHello World!\n\n\nHello!\n\n\n\n\n\n\nAuthor: Yinhong Chen\nData : 09/14/2023\nNetID: yc1156\n\n\n\n\n\n\n\n\nHeader 1\nHeader 2\n\n\n\n\nRow 1, Col 1\nRow 1, Col 2\n\n\nRow 2, Col 1\nRow 2, Col 2\n\n\n\n\n\n\n\n\n\n\\[\nF = \\frac{Y}{{X^2}}\n\\]\n\n\n\nHere is a simple footnote1.\n\n\n\n\nHere is a quotation from a Steven Jobs.\n\n\n\n\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  graph TD;\n      A--&gt;B;\n      A--&gt;C;\n      B--&gt;D;\n      C--&gt;D;\n\n\n\n\n\n\n\n\nDennis says that blah blah blah(2018)\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#header-2-two-column-text",
+    "href": "index.html#header-2-two-column-text",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Column 1\n\n\nColumn 2\n\n\n\n\nThis is column 1\n\n\nand column 2\n\n\n\n\nHello World!\n\n\nHello!\n\n\n\n\n\n\nAuthor: Yinhong Chen\nData : 09/14/2023\nNetID: yc1156"
+  },
+  {
+    "objectID": "index.html#markdown-table",
+    "href": "index.html#markdown-table",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Header 1\nHeader 2\n\n\n\n\nRow 1, Col 1\nRow 1, Col 2\n\n\nRow 2, Col 1\nRow 2, Col 2"
+  },
+  {
+    "objectID": "index.html#non-inline-math-latex-equation",
+    "href": "index.html#non-inline-math-latex-equation",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "\\[\nF = \\frac{Y}{{X^2}}\n\\]"
+  },
+  {
+    "objectID": "index.html#foot-note",
+    "href": "index.html#foot-note",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Here is a simple footnote1."
+  },
+  {
+    "objectID": "index.html#one-quote",
+    "href": "index.html#one-quote",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Here is a quotation from a Steven Jobs."
+  },
+  {
+    "objectID": "index.html#two-embedded-images",
+    "href": "index.html#two-embedded-images",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Image 1\n\n\n\n\n\nImage 2"
+  },
+  {
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "graph TD;\n      A--&gt;B;\n      A--&gt;C;\n      B--&gt;D;\n      C--&gt;D;"
+  },
+  {
+    "objectID": "index.html#instance-of-the-citation-from-.bib-file",
+    "href": "index.html#instance-of-the-citation-from-.bib-file",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Dennis says that blah blah blah(2018)\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHello World.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#slide-1-citation",
+    "href": "slides/slides.html#slide-1-citation",
+    "title": "lab-1.2-slides",
+    "section": "Slide 1 citation",
+    "text": "Slide 1 citation\nDennis says that blah blah blah(2018)\nReferences\n\n\nDennis, Alan R, and Randall K Minas. 2018. “Security on Autopilot: Why Current Security Theories Hijack Our Thinking and Lead Us Astray.” ACM SIGMIS Database: The DATABASE for Advances in Information Systems 49 (SI): 15–38."
+  },
+  {
+    "objectID": "slides/slides.html#slide-2-images",
+    "href": "slides/slides.html#slide-2-images",
+    "title": "lab-1.2-slides",
+    "section": "Slide 2 images",
+    "text": "Slide 2 images\n\nImage 1"
+  },
+  {
+    "objectID": "slides/slides.html#slide-3-images",
+    "href": "slides/slides.html#slide-3-images",
+    "title": "lab-1.2-slides",
+    "section": "Slide 3 images",
+    "text": "Slide 3 images\n\nImage 2"
+  },
+  {
+    "objectID": "slides/slides.html#slide-4-code",
+    "href": "slides/slides.html#slide-4-code",
+    "title": "lab-1.2-slides",
+    "section": "Slide 4 code",
+    "text": "Slide 4 code\n\n\nCode\nimport matplotlib.pyplot as plt\n  \nx = [1,2,3]\ny = [4,5,6]\n\nplt.plot(x, y)\n\nplt.xlabel('x - axis')\nplt.ylabel('y - axis')\nplt.title('Plot')\nplt.show()"
+  }
+]

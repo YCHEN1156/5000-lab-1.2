@@ -1,0 +1,91 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+
+# Header 1
+School: Georgetown University
+
+## Header 2 Two-Column Text
+
+::: {layout-ncol="2"}
+
+**Column 1**
+
+**Column 2**
+
+This is column 1 
+
+and column 2
+
+Hello World!
+
+Hello!
+
+:::
+
+
+### Header 3 Bulleted List
+- Author: Yinhong Chen
+- Data : 09/14/2023
+- NetID: yc1156
+
+## Markdown table
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 |
+| Row 2, Col 1 | Row 2, Col 2 |
+
+## inline-math LaTex equation $Y=X^2$
+
+## non inline-math LaTex equation
+$$
+F = \frac{Y}{{X^2}}
+$$
+
+## foot-note  
+
+Here is a simple footnote[^1]. 
+
+[^1]: Hello World.
+
+## one quote 
+> Here is a quotation from a Steven Jobs.
+
+## two embedded images
+![Image 1](images/image1.png)
+
+![Image 2](images/image2.png)
+
+## one embedded video
+<iframe
+  src="Georgetown.mp4"
+  style="width:100%; height:300px;"
+></iframe>
+
+
+
+
+
+## Mermaid diagram
+```{mermaid}
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
+## instance of the citation from .bib file
+Dennis says that blah blah blah[-@dennis2018security]
+
+
+
+
+
+
+
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

@@ -1,0 +1,60 @@
+---
+title: "simple_quarto_website"
+---
+
+# Header 1
+School: Georgetown University
+
+## Header 2 Two-Column Text
+::: columns
+Department Name:
+
+DSAN
+:::
+
+### Header 3 Bulleted List
+- Author: Yinhong Chen
+- Data : 09/14/2023
+- NetID: yc1156
+
+## Markdown table
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 |
+| Row 2, Col 1 | Row 2, Col 2 |
+
+## inline-math LaTex equation $Y=X^2$
+
+## non inline-math LaTex equation
+$$
+F = \frac{Y}{{X^2}}
+$$
+
+## foot-note  
+Here is a sentence with a footnote. [^1]
+
+## one quote 
+> Here is a quotation from a Steven Jobs.
+
+## two embedded images
+![Image 1](images/image1.png)
+
+![Image 2](images/image2.png)
+
+## one embedded video
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=b1kbLwvqugk" frameborder="0" allowfullscreen></iframe>
+
+## Mermaid diagram
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
+## instance of the citation from .bib file
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
